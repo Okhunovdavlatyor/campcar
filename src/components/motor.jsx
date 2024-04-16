@@ -17,7 +17,7 @@ const MotorComponent = () => {
         </Bgwrap>
         <Wrapper>
             <Listwrap>
-                <p>Cost of car</p>
+               
             </Listwrap>
             <Catalogwraper>
                 <ItemWraper>
