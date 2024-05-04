@@ -68,8 +68,9 @@ cursor: pointer;
 `
 export const Btnwrap = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
+
 margin-top: 12px;
 :hover {
     color: white;
@@ -137,7 +138,8 @@ img {
 `
 export const Infowraper = styled.div`
 display: flex;
-flex: ${props => props.$Hcomponent ? '3' : '1'};
+flex-direction: column;
+flex: ${props => props.$Hcomponent ? '2' : '1'};
 
 flex-direction: ${props => props.$Hcomponent ? 'row' : 'column'};
 div {

@@ -18,7 +18,7 @@ const RouterComponent = () => {
         <Route path='/motor' element={<MotorComponent />} /> 
         <Route path='/caravan' element={<CaravanComponent />} /> 
         <Route path='/tuning' element={<TuningComponent />} /> 
-        <Route path='/used-car' element={<UsedCarComponent />} /> 
+        <Route path='/usedcar' element={<UsedCarComponent />} /> 
         <Route path='/camping-place' element={<CampingPlaceComponent />} /> 
      </Routes>
 
