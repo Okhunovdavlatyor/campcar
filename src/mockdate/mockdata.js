@@ -9,7 +9,8 @@ import img7 from '../assets/car7.jpg'
 import img8 from '../assets/car8.jpg'
 import img9 from '../assets/car9.jpg'
 import img10 from '../assets/car10.jpg'
-
+import det1 from '../assets/image 6.png'
+import det2 from '../assets/image 7.png'
 export const campcar = {
   maindata: [
     {
@@ -25,6 +26,10 @@ export const campcar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 4.5,
+        desc: {
+          photo: `${det1}`,
+          comfort: 'Sleeping Accommodations: Many camping cars come with beds, ranging from simple bunks to larger beds, sometimes even with memory foam mattresses. Some RVs have slide-outs to expand sleeping areas when parked.'
+        }
       },
     },
     {

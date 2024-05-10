@@ -1,47 +1,59 @@
 import React from 'react'
-import { Btn, Btnwrap, CardCont, Carwap, Catalogwraper, Container, Filterwrap, Imgwraper, InfoWrapper, Infowraper, ItemLeft, ItemRight, ItemWraper, LeftInfo, ListWrapper, Listwrap, RightInfo, Wrapper } from '../styles/motorStyle';
-import { Bgwrap } from '../styles/navbarStyle';
-import { campcar } from '../mockdate/mockdata';
-import Quadro from '../assets/quadro.png';
-import Oltiadro from '../assets/oltiadro.png';
+import { Btn, Btnwrap, CardCont, Carwap, Imgwraper, Infowraper, LeftInfo, RightInfo } from '../styles/motorStyle';
+
 import Star from '../assets/star.png';
-import Hcomponent from './hcomponent';
-//import Vcomponent from './vcomponent';
+import { campcar } from '../mockdate/mockdata';
+import { Link } from 'react-router-dom';
+
 const Vcomponent = () => {
     const date = campcar.maindata;
     console.log('date', date); 
-    const dateLength = date.length;
-    console.log('data:', date.length);
     
   return (
-    <Carwap>
+    < >
     {
         date.map ((value, key)=>{
-            return ( <CardCont key={key}>
-                <Imgwraper>
+            return (
+                
+                
+    
+    
+    
+            <CardCont key={key} $Hcomponent>
+                <Imgwraper $Hcomponent>
 
                 <img src={value.car.photo}  alt="" width={200} />
                 </Imgwraper>
                 
-                <Infowraper>
-                <LeftInfo>
+                <Infowraper $Hcomponent>
+                <div >
                 
                 <h1>{value.car.name || 'nodate'}</h1>
 
-                
-                <RightInfo>
-                <div>
                 <p>{value.car.company || 'nodate'}</p>
-                    </div>
-                    <img src={Star} alt="star-img" />
-                    <p>{value.car.rate || '4.5'}</p>
-                    </RightInfo>
                 
+                </div>
+                
+                <div>
                 <h2>{value.car.cost}</h2>
-                </LeftInfo>
+                    
+                    <img src={Star} alt="star-img" />
+                        <p>{value.car.rate || '4.5'}</p>
+                    
+                    
+                    
+                    
+                    </div>
                 
-                </Infowraper>
-               
+                
+                    
+                    <Btnwrap>
+                    
+                    <Btn $Hcomponent>Order</Btn>
+                    <Btn $Hcomponent>Compare</Btn>
+                    </Btnwrap>
+                
+                </Infowraper>       
                 
                     
                     
@@ -50,20 +62,15 @@ const Vcomponent = () => {
                
                 
                 
-                <Btnwrap>
-                <Btn>Order</Btn>
-                <Btn>Compare</Btn>
-                </Btnwrap>
                 
                 
                
             </CardCont>
-
+            
             )
         })
     }
-    </Carwap>
-
+    </  >
   )
 }
 export default Vcomponent;

@@ -7,6 +7,7 @@ import TuningComponent from './components/tuning';
 import UsedCarComponent from './components/usedcar';
 import CampingPlaceComponent from './components/campingplace';
 import Navbarcomponent from './navbar';
+import DetailPage from './components/detail';
 
 
 const RouterComponent = () => {
@@ -20,6 +21,7 @@ const RouterComponent = () => {
         <Route path='/tuning' element={<TuningComponent />} /> 
         <Route path='/usedcar' element={<UsedCarComponent />} /> 
         <Route path='/camping-place' element={<CampingPlaceComponent />} /> 
+        <Route path='/motor/:id' element={<DetailPage />} /> 
      </Routes>
 
     </>

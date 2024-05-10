@@ -176,7 +176,7 @@ const MotorComponent = () => {
                 
                 <>
                 {
-                    active ? <Hcomponent /> : <Vcomponent />
+                    active ? <Vcomponent /> : <Hcomponent />
                 }
                 </>
                 

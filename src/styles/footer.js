@@ -4,11 +4,8 @@ export const FooterWraper = styled.div`
 display: flex;
 justify-content: space-evenly;
 
-width: 1500px;
-height: 350px;
-top: 2245px;
-gap: 0px;
-opacity: 0px;
+width: max-width: ;
+
 
 
 
