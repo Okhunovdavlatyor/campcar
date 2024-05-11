@@ -10,6 +10,8 @@ import det4 from '../assets/image 9.png'
 import det5 from '../assets/image 10.png'
 import FooterComponent from './footer';
 import BasicTabs from './tab';
+import FaqComponent from './faq';
+import AccordionTransition from './accordion';
 const DetailPage = () => {
     const {id} = useParams();
     //console.log(campcar)
@@ -112,6 +114,7 @@ One of the advantages it offers is that it can heat up your vehicle while you dr
             </Boxwrapper>
         </Flexwrapper>
         <BasicTabs />
+        
        <FooterComponent />
     </div>
     </>

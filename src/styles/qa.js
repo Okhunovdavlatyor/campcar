@@ -42,7 +42,7 @@ flex-direction: column;
 justify-content: space-around;
 align-items: center;
 flex: 1;
-
+padding: 30px 30px 36px 30px;
 h1{
     margin: 30px 123px 0px 123px;
 }
