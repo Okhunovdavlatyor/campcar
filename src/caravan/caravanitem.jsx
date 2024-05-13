@@ -1,28 +1,29 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { campcar } from '../mockdate/mockdata';
+
 
 import { Display, Flex, Flexcol} from '../styles/itemreview';
+import { Caravancar } from '../mockdate/caravanmockdate';
 
 
 
-const Itemreviewscomponent = () => {
-    const bd = campcar.maindata;
-    const bdLength = bd.length;
+const CaravanItem = () => {
+    const less = Caravancar.maindata;
+    const lessLength = less.length;
     
     const {id} = useParams();
     
-    const resultdata = campcar.maindata.find(
+    const car = Caravancar.maindata.find(
         (value)=> value.id === parseInt(id)
     );
-    console.log(resultdata);
+    console.log(car);
    
   return (
     <>
     <Display>
     <Flex style={{justifyContent:'start'}}>
         <h>Premium Review</h>
-        <p style={{color: '#006DAB', marginLeft:'10px'}}>{bdLength}</p>
+        <p style={{color: '#006DAB', marginLeft:'10px'}}>{lessLength}</p>
         </Flex>
         <div style={{justifyContent:'end'}}>
             <select style={{color:'#006DAB'}}>
@@ -37,11 +38,11 @@ const Itemreviewscomponent = () => {
                 
                 <Flex>
                 <div>
-<img src={resultdata.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
+<img src={car.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
                 </div>
                 <Flexcol style={{marginLeft:'20px'}}>
-                    <h2>{resultdata.car.name}</h2>
-                    <p>{resultdata.car.company}</p>
+                    <h2>{car.car.name}</h2>
+                    <p>{car.car.company}</p>
                     <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
                     
                 </Flexcol>
@@ -49,8 +50,8 @@ const Itemreviewscomponent = () => {
                 </Flex>
                 <div>
                 <Flexcol $main style={{justifyContent:'end'}}> 
-                    <h>ID: {resultdata.id}</h>
-                    <p>Date: {resultdata.car.date}</p>
+                    <h>ID: {car.id}</h>
+                    <p>Date: {car.car.date}</p>
                     <p>Viewed: 135</p>
                 </Flexcol>
                 </div>
@@ -62,11 +63,11 @@ const Itemreviewscomponent = () => {
                 
                 <Flex>
                 <div>
-<img src={resultdata.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
+<img src={car.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
                 </div>
                 <Flexcol style={{marginLeft:'20px'}}>
-                    <h2>{resultdata.car.name}</h2>
-                    <p>{resultdata.car.company}</p>
+                    <h2>{car.car.name}</h2>
+                    <p>{car.car.company}</p>
                     <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
                     
                 </Flexcol>
@@ -74,8 +75,8 @@ const Itemreviewscomponent = () => {
                 </Flex>
                 <div>
                 <Flexcol $main style={{justifyContent:'end'}}> 
-                    <h>ID: {resultdata.id}</h>
-                    <p>Date: {resultdata.car.date}</p>
+                    <h>ID: {car.id}</h>
+                    <p>Date: {car.car.date}</p>
                     <p>Viewed: 135</p>
                 </Flexcol>
                 </div>
@@ -87,11 +88,11 @@ const Itemreviewscomponent = () => {
                 
                 <Flex>
                 <div>
-<img src={resultdata.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
+<img src={car.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
                 </div>
                 <Flexcol style={{marginLeft:'20px'}}>
-                    <h2>{resultdata.car.name}</h2>
-                    <p>{resultdata.car.company}</p>
+                    <h2>{car.car.name}</h2>
+                    <p>{car.car.company}</p>
                     <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
                     
                 </Flexcol>
@@ -99,8 +100,8 @@ const Itemreviewscomponent = () => {
                 </Flex>
                 <div>
                 <Flexcol $main style={{justifyContent:'end'}}> 
-                    <h>ID: {resultdata.id}</h>
-                    <p>Date: {resultdata.car.date}</p>
+                    <h>ID: {car.id}</h>
+                    <p>Date: {car.car.date}</p>
                     <p>Viewed: 135</p>
                 </Flexcol>
                 </div>
@@ -112,11 +113,11 @@ const Itemreviewscomponent = () => {
                 
                 <Flex>
                 <div>
-<img src={resultdata.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
+<img src={car.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
                 </div>
                 <Flexcol style={{marginLeft:'20px'}}>
-                    <h2>{resultdata.car.name}</h2>
-                    <p>{resultdata.car.company}</p>
+                    <h2>{car.car.name}</h2>
+                    <p>{car.car.company}</p>
                     <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
                     
                 </Flexcol>
@@ -124,8 +125,8 @@ const Itemreviewscomponent = () => {
                 </Flex>
                 <div>
                 <Flexcol $main style={{justifyContent:'end'}}> 
-                    <h>ID: {resultdata.id}</h>
-                    <p>Date: {resultdata.car.date}</p>
+                    <h>ID: {car.id}</h>
+                    <p>Date: {car.car.date}</p>
                     <p>Viewed: 135</p>
                 </Flexcol>
                 </div>
@@ -137,11 +138,11 @@ const Itemreviewscomponent = () => {
                 
                 <Flex>
                 <div>
-<img src={resultdata.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
+<img src={car.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
                 </div>
                 <Flexcol style={{marginLeft:'20px'}}>
-                    <h2>{resultdata.car.name}</h2>
-                    <p>{resultdata.car.company}</p>
+                    <h2>{car.car.name}</h2>
+                    <p>{car.car.company}</p>
                     <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
                     
                 </Flexcol>
@@ -149,8 +150,8 @@ const Itemreviewscomponent = () => {
                 </Flex>
                 <div>
                 <Flexcol $main style={{justifyContent:'end'}}> 
-                    <h>ID: {resultdata.id}</h>
-                    <p>Date: {resultdata.car.date}</p>
+                    <h>ID: {car.id}</h>
+                    <p>Date: {car.car.date}</p>
                     <p>Viewed: 135</p>
                 </Flexcol>
                 </div>
@@ -162,11 +163,11 @@ const Itemreviewscomponent = () => {
                 
                 <Flex>
                 <div>
-<img src={resultdata.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
+<img src={car.car.photo} alt="car" style={{width:'100px', height:'100px'}} />
                 </div>
                 <Flexcol style={{marginLeft:'20px'}}>
-                    <h2>{resultdata.car.name}</h2>
-                    <p>{resultdata.car.company}</p>
+                    <h2>{car.car.name}</h2>
+                    <p>{car.car.company}</p>
                     <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
                     
                 </Flexcol>
@@ -174,8 +175,8 @@ const Itemreviewscomponent = () => {
                 </Flex>
                 <div>
                 <Flexcol $main style={{justifyContent:'end'}}> 
-                    <h>ID: {resultdata.id}</h>
-                    <p>Date: {resultdata.car.date}</p>
+                    <h>ID: {car.id}</h>
+                    <p>Date: {car.car.date}</p>
                     <p>Viewed: 135</p>
                 </Flexcol>
                 </div>
@@ -191,4 +192,4 @@ const Itemreviewscomponent = () => {
   )
 }
 
-export default Itemreviewscomponent
+export default CaravanItem

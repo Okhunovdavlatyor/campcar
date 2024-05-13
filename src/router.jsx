@@ -9,6 +9,9 @@ import CampingPlaceComponent from './components/campingplace';
 import Navbarcomponent from './navbar';
 import DetailPage from './components/detail';
 
+import CaravanClickComponent from './components/caravanclick';
+
+
 
 const RouterComponent = () => {
   return (
@@ -22,6 +25,7 @@ const RouterComponent = () => {
         <Route path='/usedcar' element={<UsedCarComponent />} /> 
         <Route path='/camping-place' element={<CampingPlaceComponent />} /> 
         <Route path='/motor/:id' element={<DetailPage />} /> 
+        <Route path='/caravan/:id' element={<CaravanClickComponent />} /> 
      </Routes>
 
     </>

@@ -4,10 +4,9 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import QandAcomponent from './q&a';
-import FaqComponent from './faq';
-import Itemreviewscomponent from './itemreview';
-
+import CaravanItem from '../caravan/caravanitem';
+import CaravanQandAcomponent from '../caravan/caravanq&a';
+import CaravanFaq from '../caravan/caravanfaq';
 
 
 function CustomTabPanel(props) {
@@ -43,7 +42,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function CaravanTab() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -62,18 +61,17 @@ export default function BasicTabs() {
       </Box>
       <CustomTabPanel value={value} index={0}>
         
-        <Itemreviewscomponent />
-        
+        <CaravanItem />
        
       
         
        
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <QandAcomponent />
+        <CaravanQandAcomponent />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        <FaqComponent />
+        <CaravanFaq />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         Item Three
