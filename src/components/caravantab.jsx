@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import CaravanItem from '../caravan/caravanitem';
 import CaravanQandAcomponent from '../caravan/caravanq&a';
 import CaravanFaq from '../caravan/caravanfaq';
-
+import emailjs from '@emailjs/browser';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -48,7 +48,24 @@ export default function CaravanTab() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+  const form = React.useRef();
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_tbarhso', 'template_r5f5c2p', form.current, {
+        publicKey: 'bkJKAjAbcbU_RMzwi',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -74,7 +91,15 @@ export default function CaravanTab() {
         <CaravanFaq />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
-        Item Three
+      <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
       </CustomTabPanel>
     </Box>
   );

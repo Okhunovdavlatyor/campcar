@@ -21,8 +21,10 @@ const Vcomponent = () => {
     
             <CardCont key={key} $Hcomponent>
                 <Imgwraper $Hcomponent>
-
+                <div style={{display:'flex', flex:'1'}}>
                 <img src={value.car.photo}  alt="" width={200} />
+                </div>
+                
                 </Imgwraper>
                 
                 <Infowraper $Hcomponent>

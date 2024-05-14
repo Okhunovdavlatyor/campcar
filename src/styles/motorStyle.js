@@ -127,17 +127,20 @@ padding: 8px;
 `
 export const Imgwraper = styled.div`
 display: flex;
+flex: 1;
 
-flex: ${props => props.$Hcomponent ? '1' : '1'};
-justify-content: center;
+//flex: ${props => props.$Hcomponent ? '1' : ''};
+//justify-content: center;
 
 //border: 1px solid red;
 img {
     width: 200px;
+    height: 100px;
 }
 `
 export const Infowraper = styled.div`
 display: flex;
+flex: 1;
 flex-direction: column;
 flex: ${props => props.$Hcomponent ? '2' : '1'};
 
