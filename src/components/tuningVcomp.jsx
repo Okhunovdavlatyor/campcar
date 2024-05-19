@@ -2,6 +2,7 @@ import React from 'react'
 import { tuningcar } from '../mockdate/tuningmock';
 import { Btn, Btnwrap, CardCont, Carwap, Imgwraper, Infowraper, LeftInfo, RightInfo } from '../styles/motorStyle';
 import Star from '../assets/star.png';
+import { Link } from 'react-router-dom';
 const TuningVcomp = () => {
     const tuningdate = tuningcar.maindata;
     console.log('date', tuningdate); 
@@ -9,7 +10,9 @@ const TuningVcomp = () => {
     <Carwap>
     {
         tuningdate.map ((value, key)=>{
-            return ( <CardCont key={key}>
+            return ( 
+              <Link to={`${value.id}`} style={{textDecoration: 'none', color:'black'}}>
+            <CardCont key={key}>
                 <Imgwraper>
 
                 <img src={value.car.photo}  alt="" width={200} />
@@ -38,7 +41,7 @@ const TuningVcomp = () => {
                 <Btn>Compare</Btn>
                 </Btnwrap>            
                    </CardCont>
-
+              </Link>
             )
         })
     }

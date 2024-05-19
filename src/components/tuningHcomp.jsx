@@ -2,6 +2,7 @@ import React from 'react'
 import { tuningcar } from '../mockdate/tuningmock';
 import { Btn, Btnwrap, CardCont, Imgwraper, Infowraper } from '../styles/motorStyle';
 import Star from '../assets/star.png';
+import { Link } from 'react-router-dom';
 const TuningHcomp = () => {
     const tuningdate = tuningcar.maindata;
     console.log('date', tuningdate); 
@@ -10,6 +11,7 @@ const TuningHcomp = () => {
     {
         tuningdate.map ((value, key)=> {
             return (
+                <Link to={`${value.id}`} style={{textDecoration: 'none', color:'black'}}>
                 <CardCont key={key} $Hcomponent>
                 <Imgwraper $Hcomponent>
                 <img src={value.car.photo}  alt="" width={200} />
@@ -45,6 +47,7 @@ const TuningHcomp = () => {
                 
                 </Infowraper>  
                 </CardCont>
+                </Link>
             )
         })
     }

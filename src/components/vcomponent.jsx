@@ -15,7 +15,7 @@ const Vcomponent = () => {
         date.map ((value, key)=>{
             return (
                 
-                
+                <Link to={`${value.id}`} style={{textDecoration: 'none', color:'black'}}>
     
     
     
@@ -68,7 +68,7 @@ const Vcomponent = () => {
                 
                
             </CardCont>
-            
+            </Link>
             )
         })
     }

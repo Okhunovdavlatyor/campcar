@@ -3,6 +3,8 @@ import Star from '../assets/star.png';
 import { Btn, Btnwrap, CardCont, Imgwraper, Infowraper } from '../styles/motorStyle';
 import { Caravancar } from '../mockdate/caravanmockdate';
 import { FreeWrap } from '../styles/freecont';
+import { Link } from 'react-router-dom';
+
 
 const CaravanHcomp = () => {
     const caravandate = Caravancar.maindata;
@@ -13,6 +15,7 @@ const CaravanHcomp = () => {
  {
     caravandate.map ((value, key)=>{
         return (
+    <Link to={`${value.id}`} style={{textDecoration: 'none', color:'black'}}>
             <CardCont key={key} $Hcomponent>
                 
                 <Imgwraper $Hcomponent>
@@ -52,7 +55,7 @@ const CaravanHcomp = () => {
                 </Infowraper>  
                 
                 </CardCont>
-                
+                </Link>
         )
     })
  }

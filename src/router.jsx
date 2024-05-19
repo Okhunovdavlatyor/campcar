@@ -10,6 +10,7 @@ import Navbarcomponent from './navbar';
 import DetailPage from './components/detail';
 
 import CaravanClickComponent from './components/caravanclick';
+import TuningClickComp from './components/tuningclick';
 
 
 
@@ -18,7 +19,7 @@ const RouterComponent = () => {
     <>
          <Navbarcomponent />
      <Routes>
-        <Route path='/' element={<HomeComponent />} /> 
+        <Route path='/home' element={<HomeComponent />} /> 
         <Route path='/motor' element={<MotorComponent />} /> 
         <Route path='/caravan' element={<CaravanComponent />} /> 
         <Route path='/tuning' element={<TuningComponent />} /> 
@@ -26,6 +27,7 @@ const RouterComponent = () => {
         <Route path='/camping-place' element={<CampingPlaceComponent />} /> 
         <Route path='/motor/:id' element={<DetailPage />} /> 
         <Route path='/caravan/:id' element={<CaravanClickComponent />} /> 
+        <Route path='/tuning/:id' element={<TuningClickComp />} /> 
      </Routes>
 
     </>
