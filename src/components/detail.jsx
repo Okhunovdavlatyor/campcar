@@ -4,7 +4,7 @@ import { NavLink, useParams } from 'react-router-dom';
 import det1 from '../assets/image 6.png'
 import det2 from '../assets/image 7.png'
 import { Bgwrap } from '../styles/navbarStyle';
-import { Boxwrapper, Button, Flex, Flexwrap, Flexwrapper, LeftWrapper, Rightwrapper, Space } from '../styles/detaid';
+import { Boxwrapper, Button, Flex, Fleximg, Flexwrap, Flexwrapper, LeftWrapper, Rightwrapper, Space } from '../styles/detaid';
 import det3 from '../assets/image 8.png'
 import det4 from '../assets/image 9.png'
 import det5 from '../assets/image 10.png'
@@ -56,8 +56,9 @@ const DetailPage = () => {
         </Flexwrap>
         <Flexwrapper>
             <Boxwrapper>
-            <Flex $first >
-            <h1>Comfort</h1>   
+            
+            <Flex $first style={{justifyContent: 'start'}}> 
+            <h1>Comfort</h1>  
             <p>Sleeping Accommodations: Many camping cars come with beds, <br /> ranging from simple bunks to larger beds,  sometimes even <br /> with memory foam mattresses. Some RVs have slide-outs <br /> to expand sleeping areas when parked.</p>         
             </Flex>    
             <Flex>
@@ -86,9 +87,9 @@ Camper relies on legendary Seitz windows. They offer the best insulation and are
             </Flex>
             </Boxwrapper>
             <Boxwrapper>
-                <Flex>
+                <Fleximg>
                     <img src={det4} alt="img" />
-                </Flex>
+                </Fleximg>
                 <Flex $first>
                     <h1>Easy access</h1>
                     <p>We add little touches that your joints will thank you for…

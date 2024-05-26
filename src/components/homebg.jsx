@@ -24,9 +24,9 @@ const HomeBg = () => {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="https://th.bing.com/th/id/OIP.X8yG1_x9FKNkqlNd1GhoogHaE7?w=280&h=187&c=7&r=0&o=5&pid=1.7" alt="" /></SwiperSlide>
-<SwiperSlide><img src="https://th.bing.com/th/id/OIP.GSNzZNHoV1exaaR7XtlDjQHaFj?w=249&h=187&c=7&r=0&o=5&pid=1.7" alt="" /></SwiperSlide>
-<SwiperSlide><img src="https://th.bing.com/th/id/OIP.497MCoLk9a2smNNdAgBQTAHaEK?w=332&h=187&c=7&r=0&o=5&pid=1.7" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-oboi-doma-na-kolesakh-32.jpg" alt="walp1" style={{height:'800px',backgroundPosition:'100%',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}   /></SwiperSlide>
+<SwiperSlide><img src="https://www.pilote.fr/app/uploads/2023/07/camping-car-profile-Pilote-e1695632564820.jpg" alt="" style={{height:'800px',backgroundPosition:'100%',backgroundSize:'cover',backgroundRepeat:'no-repeat'} }/></SwiperSlide>
+<SwiperSlide><img src="https://www.campingcarlesite.com/wp-content/uploads/2023/07/2024_RAPIDO_C03_00.jpg" alt="" style={{height:'800px',backgroundPosition:'100%',backgroundSize:'cover',backgroundRepeat:'no-repeat'}} /></SwiperSlide>
         
       </Swiper>
     </>

@@ -3,12 +3,15 @@ import React from 'react'
 import Homebg from './homebg';
 import { Flex, Flexcol, Grid, Grid3 } from '../styles/home';
 
-import boximg from '../assets/11 1.png'
+
 import grid1 from '../assets/Group 2197.png'
 import grid2 from '../assets/Group 2198.png'
 import grid3 from '../assets/Group 2199.png'
 import grid4 from '../assets/Group 2200.png'
 import FooterComponent from './footer';
+import SliderComp from './Slider';
+import PopupComp from './popup';
+import PopupThree from './popupthree';
 const HomeComponent = () => {
   
   return (
@@ -17,59 +20,15 @@ const HomeComponent = () => {
     <Homebg />
     
       <h1 style={{marginTop:'50px'}}>Recommend</h1>
+      <SliderComp />
       <Flex style={{padding:'0 10%'}}>
-      <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
-    <img src={boximg} alt="car" style={{width:'290px'}} />
-    <h>Knaus</h>
-            <button>Discover the range</button>
-            <select>
-                <option>Choose a model</option>
-            </select>
-  
-
-      </Flexcol>
-      <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
-    <img src={boximg} alt="car" style={{width:'290px'}} />
-    <h>Knaus</h>
-            <button>Discover the range</button>
-            <select>
-                <option>Choose a model</option>
-            </select>
-  
-
-      </Flexcol>
-      <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
-    <img src={boximg} alt="car" style={{width:'290px'}} />
-    <h>Knaus</h>
-            <button>Discover the range</button>
-            <select>
-                <option>Choose a model</option>
-            </select>
-  
-
-      </Flexcol>
-      <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
-    <img src={boximg} alt="car" style={{width:'290px'}} />
-    <h>Knaus</h>
-            <button>Discover the range</button>
-            <select>
-                <option>Choose a model</option>
-            </select>
-  
-
-      </Flexcol>
+      
       </Flex>
 
       <h1 style={{marginTop:'50px'}}>Videos</h1>
       <Grid>
-        <img src={grid1} alt="" />
-        <img src={grid2} alt="" />
-        <img src={grid3} alt="" />
-        <img src={grid4} alt="" />
-        <img src={grid1} alt="" />
-        <img src={grid2} alt="" />
-        <img src={grid3} alt="" />
-        <img src={grid4} alt="" />
+      <PopupComp />
+       
       </Grid>
 
       <h1 style={{marginTop:'50px'}}>Blogs</h1>
@@ -81,12 +40,8 @@ const HomeComponent = () => {
       </Flexcol>
      
       <Grid3 style={{flex:'1'}}>
-<img src={grid1} alt="" />
-<img src={grid3} alt="" />
-<img src={grid4} alt="" />
-<img src={grid1} alt="" />
-<img src={grid3} alt="" />
-<img src={grid4} alt="" />
+        <PopupThree />
+
       </Grid3>
       </Flex>
 

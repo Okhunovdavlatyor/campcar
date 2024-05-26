@@ -52,16 +52,17 @@ display: flex;
 flex-direction: column;
 
 margin-top: 63px;
+padding: 0px 10%;
 `
 export const Flex = styled.div`
-
-
 display: flex;
 flex-direction: ${props=>props.$first ? 'column': ''};
 //align-items: center;
 padding: ${props=>props.$first ? '50px 80px' : ''};
 flex: 1;
-
+//width: fit-content;
+justify-content: center;
+align-items: center;
 h1 {
     margin-bottom: 20px;
     font-family: Montserrat;
@@ -85,4 +86,10 @@ img{
 `
 export const Boxwrapper = styled.div`
 display: flex;
+justify-content: center;
+align-items: center;
+`
+export const Fleximg = styled.div`
+display: flex;
+justify-content: end;
 `
