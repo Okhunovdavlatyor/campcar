@@ -31,8 +31,13 @@ const Navbarcomponent = () => {
             </NavLink>
         </Middlecont>
         <Endcont>
-            <img src={Cart} alt="cart-img" />
+          <NavLink to ='/cart'>
+          <img src={Cart} alt="cart-img" />
+          </NavLink>
+            <NavLink to ='/sign'>
             <img src={Profile} alt="profil-img" />
+            </NavLink>
+            
             <p>En</p>
         </Endcont>
     </Container>

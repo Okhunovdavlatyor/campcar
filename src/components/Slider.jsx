@@ -30,7 +30,8 @@ export default function SliderComp() {
                     <Flexcol style={{padding: '30px 10%'}} >
                     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+            <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
@@ -44,82 +45,104 @@ export default function SliderComp() {
         <Flexcol style={{padding: '30px 10%'}}>
                     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
                     </Flexcol>
         </SwiperSlide>
-        <SwiperSlide><Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
+        <SwiperSlide>
+          <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
   
 
-      </Flexcol></SwiperSlide>
-        <SwiperSlide><Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
+      </Flexcol>
+      </SwiperSlide>
+        <SwiperSlide>
+          <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
   
 
-      </Flexcol></SwiperSlide>
-        <SwiperSlide><Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
+      </Flexcol>
+      </SwiperSlide>
+        <SwiperSlide>
+          <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
   
 
-      </Flexcol></SwiperSlide>
-        <SwiperSlide><Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
+      </Flexcol>
+      </SwiperSlide>
+        <SwiperSlide>
+          <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
   
 
-      </Flexcol></SwiperSlide>
-        <SwiperSlide><Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
+      </Flexcol>
+      </SwiperSlide>
+        <SwiperSlide>
+          <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
   
 
-      </Flexcol></SwiperSlide>
-        <SwiperSlide><Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
+      </Flexcol>
+      </SwiperSlide>
+        <SwiperSlide>
+          <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
   
 
-      </Flexcol></SwiperSlide>
-        <SwiperSlide><Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
+      </Flexcol>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Flexcol style={{marginTop:'50px', marginRight:'50px'}}>        
     <img src={boximg} alt="car" style={{width:'290px'}} />
     <h>Knaus</h>
-            <button>Discover the range</button>
+    <button style={{backgroundColor:'#006DAB', color:'white', margin: '10px 0', width: '200px',height:'35px'
+            }}>Discover the range</button>
             <select>
                 <option>Choose a model</option>
             </select>
   
 
-      </Flexcol></SwiperSlide>
+      </Flexcol>
+      </SwiperSlide>
       </Swiper>
     </>
   );

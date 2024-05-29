@@ -24,7 +24,7 @@ display: flex;
 //flex-direction: column;
 padding: 0px 50px 0px 70px;
 img {
-    width: 626px;
+    width: 726px;
 }
 `
 export const Rightwrapper = styled.div`
@@ -45,6 +45,7 @@ padding: 8px;
 export const LeftWrapper = styled.div`
 display: flex;
 flex: 1;
+
 `
 
 export const Flexwrapper = styled.div`
@@ -56,40 +57,85 @@ padding: 0px 10%;
 `
 export const Flex = styled.div`
 display: flex;
-flex-direction: ${props=>props.$first ? 'column': ''};
-//align-items: center;
-padding: ${props=>props.$first ? '50px 80px' : ''};
-flex: 1;
-//width: fit-content;
-justify-content: center;
-align-items: center;
-h1 {
-    margin-bottom: 20px;
+flex: 1; 
+
+flex-direction: column;
+justify-content: end;
+img{
+    width: 683px;
+}
+h1{
     font-family: Montserrat;
 font-size: 35px;
 font-weight: 600;
 line-height: 42.67px;
 text-align: left;
+margin-top: 70px;
 
 }
 p{
     font-family: Montserrat;
-font-size: 26px;
+font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 text-align: left;
-
-}
-img{
-    width: fit-content;
+margin-top: 30px;
 }
 `
 export const Boxwrapper = styled.div`
 display: flex;
+
+`
+
+export const Column = styled.div`
+display: flex;
+flex: 1;
+flex-direction: column;
+justify-content: start;
+
+h1{
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 600;
+line-height: 42.67px;
+text-align: left;
+margin-top: 70px;
+
+}
+p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top: 30px;
+}
+
+`
+
+export const Margin = styled.div`
+display: flex;
+flex: 1;
+flex-direction: column;
 justify-content: center;
 align-items: center;
-`
-export const Fleximg = styled.div`
-display: flex;
-justify-content: end;
+
+
+h1{
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 600;
+line-height: 42.67px;
+text-align: left;
+margin-top: 70px;
+
+}
+p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top: 30px;
+}
 `

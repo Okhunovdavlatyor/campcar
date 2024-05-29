@@ -25,6 +25,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        price: '550$',
         rate: 4.5,
         desc: {
           photo: `${det1}`,
@@ -44,6 +45,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        price: '450$',
       },
     },
     {
@@ -58,6 +60,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -72,6 +75,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -86,6 +90,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -100,6 +105,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        price: '450$',
       },
     },
     {
@@ -114,6 +120,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        price: '350$',
       },
     },
     {
@@ -128,6 +135,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -142,6 +150,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        price: '650$',
       },
     },
     {
@@ -156,6 +165,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -170,6 +180,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        price: '450$',
       },
     },
     {
@@ -184,6 +195,7 @@ export const campcar = {
         date: "22년 03월",
         company: "스타모빌",
         location: " 경상권",
+        price: '350$',
       },
     },
     {
@@ -198,6 +210,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -212,6 +225,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -226,6 +240,7 @@ export const campcar = {
         date: "22년 03월",
         company: " 영남캠핑카",
         location: "경상권",
+        price: '450$',
       },
     },
     {
@@ -240,6 +255,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        price: '650$',
       },
     },
     {
@@ -254,6 +270,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -268,6 +285,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -282,6 +300,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -296,6 +315,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -310,6 +330,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -324,6 +345,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -338,6 +360,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -352,6 +375,7 @@ export const campcar = {
         date: "22년 03월",
         company: "훼미리캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -366,6 +390,7 @@ export const campcar = {
         date: "22년 03월",
         company: "훼미리캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -380,6 +405,7 @@ export const campcar = {
         date: "22년 03월",
         company: "에이스캠퍼",
         location: "충청권",
+        price: '550$',
       },
     },
     {
@@ -394,6 +420,7 @@ export const campcar = {
         date: "22년 03월",
         company: "에이스캠퍼",
         location: "충청권",
+        price: '550$',
       },
     },
     {
@@ -408,6 +435,7 @@ export const campcar = {
         date: "22년 03월",
         company: "월든모빌",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -422,6 +450,7 @@ export const campcar = {
         date: "22년 03월",
         company: " 위드원모터스",
         location: " 수도권",
+        price: '550$',
       },
     },
     {
@@ -436,6 +465,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -450,6 +480,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -464,6 +495,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -478,6 +510,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -492,6 +525,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -506,6 +540,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -520,6 +555,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -534,6 +570,7 @@ export const campcar = {
         date: "22년 03월",
         company: "미스터캠퍼",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -548,6 +585,7 @@ export const campcar = {
         date: "22년 03월",
         company: "미스터캠퍼",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -562,6 +600,7 @@ export const campcar = {
         date: "22년 03월",
         company: "미스터캠퍼",
         location: "수도권",
+        price: '550$',
       },
     },
     {
@@ -576,6 +615,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -590,6 +630,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        price: '550$',
       },
     },
     {
@@ -604,6 +645,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        price: '450$',
       },
     },
     {
@@ -618,6 +660,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        price: '350$',
       },
     },
     {
@@ -632,6 +675,7 @@ export const campcar = {
         date: "22년 03월",
         company: "모터홈코리아",
         location: "수도권",
+        price: '550$',
       },
     },
    

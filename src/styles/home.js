@@ -7,9 +7,7 @@ justify-content: center;
 align-items: center;
 background-color: white;
 
-
-
-
+    
 `
 export const Flex = styled.div`
 display: flex;

@@ -39,7 +39,7 @@ const HomeComponent = () => {
 <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Placerat platea mauris at turpis. <br /> Volutpat, morbi sit vitae id. Aliquam eleifend <br /> aenean neque in in a quam vivamus</p>
       </Flexcol>
      
-      <Grid3 style={{flex:'1'}}>
+      <Grid3 style={{flex:'1', marginBottom:'30px'}}>
         <PopupThree />
 
       </Grid3>

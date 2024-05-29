@@ -11,6 +11,8 @@ import DetailPage from './components/detail';
 
 import CaravanClickComponent from './components/caravanclick';
 import TuningClickComp from './components/tuningclick';
+import CartComp from './components/cart';
+import SignComp from './components/sing';
 
 
 
@@ -28,6 +30,8 @@ const RouterComponent = () => {
         <Route path='/motor/:id' element={<DetailPage />} /> 
         <Route path='/caravan/:id' element={<CaravanClickComponent />} /> 
         <Route path='/tuning/:id' element={<TuningClickComp />} /> 
+        <Route path='/cart' element={<CartComp />} />
+        <Route path='/sign' element={<SignComp />} />
      </Routes>
 
     </>
